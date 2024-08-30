@@ -1,6 +1,6 @@
 package Assignment1;
 
-public class MenuItem {
+public class MenuItem { // a MenuItem class that is a blueprint for a menu item object, has attributes name, price, and category with getters and setters
     private String name;
     private double price;
     private String category;
@@ -27,7 +27,7 @@ public class MenuItem {
         this.category = category;
     }
 
-    public void displayItemInfo(){
+    public void displayItemInfo(){ // displays the menu items attributes
         System.out.println("Item: " + name);
         System.out.println("Price: " + price);
         System.out.println("Category: " + category);
